@@ -1,0 +1,28 @@
+# Hugo 生成的文件
+/public/
+/resources/_gen/
+
+# 缓存文件
+.cache/
+
+# 临时文件
+tmp/
+
+# 环境变量文件
+.env
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Hugo 模块文件
+hugo_stats.json
+
+# 开发服务器端口文件
+.hugo_build.lock

@@ -1,0 +1,85 @@
+baseURL = '/'
+languageCode = 'zh-cn'
+title = '个人博客'
+theme = 'PaperMod'
+
+# 作者信息
+author = '你的名字'
+copyright = '© 2026 你的名字'
+
+# 主题配置
+[params]
+  # 首页配置
+  [params.homeInfoParams]
+    Title = '欢迎来到我的博客'
+    Content = '记录技术、生活和思考的地方'
+
+  # 启用暗色模式切换
+  defaultTheme = 'auto'
+
+  # 启用搜索
+  enableSearch = true
+
+  # 评论系统 (稍后配置)
+  # comments = true
+
+  # 社交媒体链接 (示例)
+  socialIcons = [
+    { name = 'github', url = 'https://github.com/yourusername' },
+    { name = 'twitter', url = 'https://twitter.com/yourusername' },
+    { name = 'email', url = 'mailto:your@email.com' }
+  ]
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'categories'
+    name = '分类'
+    url = '/categories/'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'gallery'
+    name = '相册'
+    url = '/gallery/'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'projects'
+    name = '项目'
+    url = '/projects/'
+    weight = 5
+
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 6
+
+# 生产环境配置
+[production]
+  # 优化设置
+  [production.environment]
+    HUGO_ENV = 'production'
+
+  # 构建选项
+  [production.build]
+    minify = true
+    writeStats = true
+
+# 开发环境配置
+[development]
+  [development.environment]
+    HUGO_ENV = 'development'
