@@ -1,11 +1,11 @@
-baseURL = '/'
+baseURL = 'https://megumissss.github.io/'
 languageCode = 'zh-cn'
 title = '个人博客'
 theme = 'PaperMod'
 
 # 作者信息
-author = '你的名字'
-copyright = '© 2026 你的名字'
+author = 'megumissss'
+copyright = '© 2026 megumissss'
 
 # 主题配置
 [params]
@@ -25,7 +25,7 @@ copyright = '© 2026 你的名字'
 
   # 社交媒体链接 (示例)
   socialIcons = [
-    { name = 'github', url = 'https://github.com/yourusername' },
+    { name = 'github', url = 'https://github.com/megumissss' },
     { name = 'twitter', url = 'https://twitter.com/yourusername' },
     { name = 'email', url = 'mailto:your@email.com' }
   ]
